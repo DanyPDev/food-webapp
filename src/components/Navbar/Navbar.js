@@ -12,8 +12,8 @@ function Navbar() {
             </h5>
         <nav>
             <ul className='nav-links'>
-            <li><Link to="/recipesearch">Search Recipes</Link></li>
-            <li><Link to="/easteregg">Easter Egg</Link></li>
+            <li id="links"><Link to="/recipesearch">Search Recipes</Link></li>
+            <li id="links"><Link to="/easteregg">Easter Egg</Link></li>
             </ul>
         </nav>
         </header>

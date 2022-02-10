@@ -22,7 +22,7 @@ a {
      animation: ease-in;
   }
 
-  li{
+  #links{
     display: inline;
     padding: 0px 20px;
   }
