@@ -1,0 +1,14 @@
+/*Overall website look and feel*/
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  background: rgb(226, 176, 112);
+}
+
+h1 {
+  margin-top: 20px;
+}

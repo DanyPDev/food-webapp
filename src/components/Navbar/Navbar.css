@@ -1,0 +1,45 @@
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 7vh;
+  background: #a1753a;
+  color: #fff;
+}
+#home {
+  margin-right: auto;
+  margin-left: 20px;
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  a:hover {
+     color: #e2b070;
+     text-decoration: none;
+     transition: 0.4s;
+     animation: ease-in;
+  }
+
+  li{
+    display: inline;
+    padding: 0px 20px;
+  }
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  

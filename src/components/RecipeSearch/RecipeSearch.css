@@ -1,0 +1,12 @@
+input {
+    height: 38px;
+}    
+
+.buttonPosition {
+    margin-bottom: 4px;
+}
+.allTheCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
