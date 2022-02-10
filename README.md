@@ -4,7 +4,6 @@
 <strong>The purpose of this website was to familiarize myself with ReactJS and APIs</strong>
 
 
-For now, this project is front-end focused. However, I am looking foward to create a forum on this website and add my own RESTful APIs.
 
 <strong>What I have learned so far:</strong>
 
