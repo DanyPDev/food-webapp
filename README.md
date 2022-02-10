@@ -22,7 +22,7 @@ For now, this project is front-end focused. However, I am looking foward to crea
 <li>Learned how to use functional components instead of class components</li>
   
 </ul>
-<strong><h2>Samples of some the the website's pages<h2></strong>
+<strong><h2>Samples of some the Recipe Website V1 (old version)<h2></strong>
   
 <strong>Welcome Page<strong>
   ![HomePage](https://user-images.githubusercontent.com/96401568/148296760-b1917be9-67c9-48da-b934-f2b4b512cc2c.png)
