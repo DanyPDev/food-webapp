@@ -21,6 +21,7 @@
 <li>Learned how to use functional components instead of class components</li>
   
 </ul>
+
 <strong><h2>Samples of the Recipe Website V1 (old version)<h2></strong>
   
 <strong>Welcome Page<strong>
@@ -29,7 +30,7 @@
 <strong>Search Page<strong>
   ![RecipeSearchPage](https://user-images.githubusercontent.com/96401568/148296803-d6149b34-b878-4df3-88d9-a71ef3cedba7.png)
   
- <strong><h2>Samples of the new Recipe Website V2 (with added Easter Egg)<h2></strong>
+ <strong><h2>Samples of the Recipe Website V2 (with added Easter Egg)<h2></strong>
   <strong>Welcome Page<strong>
   ![Untitled](https://user-images.githubusercontent.com/96401568/153511926-a8f79922-170e-4753-98a8-b74a9cff5a39.png)
 
