@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer">
         <div>
-             &copy; {new Date().getFullYear} Dany Pham
+             &copy; {new Date().getFullYear()} Dany Pham
         </div>
         <div>
             Powered by Edamam API

@@ -8,6 +8,8 @@
 <strong>What I have learned so far:</strong>
 
 <ul>
+<li>CI/CD pipelines</li>
+
 <li>ReactJS Hooks</li>
 
 <li>API fetching (sent GET request to API)</li>
