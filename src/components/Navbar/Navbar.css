@@ -1,15 +1,20 @@
 
 header {
+  font-size: medium;
+  position: sticky;
   display: flex;
+  top:0px;
   justify-content: flex-end;
   align-items: center;
   min-height: 7vh;
   background: #a1753a;
   color: #fff;
+  z-index: 9999;
 }
-#home {
+.home {
   margin-right: auto;
   margin-left: 20px;
+  font-size: medium;
 }
 a {
     color: #FFF;
@@ -20,6 +25,7 @@ a {
      text-decoration: none;
      transition: 0.4s;
      animation: ease-in;
+     z-index: 9999;
   }
 
   #links{
@@ -35,7 +41,6 @@ a {
 
 nav{
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     justify-content: center;
   }

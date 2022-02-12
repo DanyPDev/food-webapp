@@ -7,9 +7,9 @@ function Navbar() {
     Furthermore, if the user click on any elements, it redirects them to a specific route */
     return (
         <header>
-            <h5 id="home">
+            <p className="home">
                 <Link to="/">Home <i class="fas fa-hamburger"></i></Link>
-            </h5>
+            </p>
         <nav>
             <ul className='nav-links'>
             <li id="links"><Link to="/recipesearch">Search Recipes</Link></li>
