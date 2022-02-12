@@ -12,7 +12,6 @@ function Home() {
             <h2>There is also an Easter Egg on the website that awaits you!</h2>
             <br/>
             <h2>Have fun using the website! :D</h2>
-            <h2>CI/CD TEST</h2>
         </div>
     )
 }
