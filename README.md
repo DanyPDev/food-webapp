@@ -39,5 +39,3 @@
  <strong>Search Page<strong>
   ![Untitled](https://user-images.githubusercontent.com/96401568/153511710-9c39038c-7d34-428f-a2bb-1e7492bf2a20.png)
   
- <strong>Easter Egg<strong>
-![Untitled](https://user-images.githubusercontent.com/96401568/153512044-a68d2816-3d2b-4227-8f43-1269bf2e14f3.png)
