@@ -1,3 +1,5 @@
+![workflow](https://github.com/DanyPDev/food-webapp/actions/workflows/firebase-hosting-merge.yml/badge.svg)
+
 <h1><strong>Website Link: https://food-app-v2-7a640.web.app/ </strong></h1>
 
 
