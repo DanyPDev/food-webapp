@@ -4,7 +4,7 @@ import './Home.css';
 function Home() {
     return (
         <div>
-            <h1>Welcome to Super Food App</h1>
+            <h1>Welcome to a Super Food App</h1>
             <h2>Using the Edamam API you can find dish from around the world!</h2>
             <br/>
             <h2>Just use the navigation bar to navigate.</h2>

@@ -21,24 +21,21 @@ function RecipeSearch() {
         setUserInput((document.getElementById("recipeName")! as HTMLInputElement).value);
     }
 
+    //async funtion to fetch api and handle promise
+    async function loadRecipes() {
+        try{
+            //making API call
+            //waiting for response
+            const requestResponse = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&beta=false&q=${userInput}&app_id=${APP_ID}&app_key=${APP_KEY}&ingr=5-10&imageSize=REGULAR&random=true`);
+            const responseToJSON = await requestResponse.json(); //converting to json
+            setRecipes(responseToJSON.hits); //fills the recipes array state to the JSON response of the API. If you want to see array of object names from JSON response, uncomment debug line in the next line to see JSON response on console
+            // console.log(responseToJSON); for debugging
+        } catch (error) {       //catch statement to throw error on console when there is a network error
+            console.log(error); 
+        }
+    }  
 
-    //this useEffect have its dependency set to userInput, everytime userInput changes, this useEffect renders everything that is inside the curly braces.
-    //This useEffect will trigger on page load with the initial userInput state set to an empty string since userInput changed from "nothing" to an empty
-    // string. This will diplay random recipes as the API was designed this way.
     useEffect(() => {
-        //async funtion to fetch api and handle promise
-        async function loadRecipes() {
-            try{
-                //making API call
-                //waiting for response
-                const requestResponse = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&beta=false&q=${userInput}&app_id=${APP_ID}&app_key=${APP_KEY}&ingr=5-10&imageSize=REGULAR&random=true`);
-                const responseToJSON = await requestResponse.json(); //converting to json
-                setRecipes(responseToJSON.hits); //fills the recipes array state to the JSON response of the API. If you want to see array of object names from JSON response, uncomment debug line in the next line to see JSON response on console
-                // console.log(responseToJSON); for debugging
-            } catch (error) {       //catch statement to throw error on console when there is a network error
-                console.log(error); 
-            }
-        }  
         //makes actual api call
         loadRecipes();
     }, [userInput])
@@ -57,7 +54,7 @@ function RecipeSearch() {
             {/* User input is set to whatever is in input textbox each time user submit form with button */}
             <form onSubmit={handleSearch}>
                 <input type="text" placeholder='Enter any time of food' id='recipeName' />
-                <button onMouseEnter={handleHover} onMouseLeave={handleHover} className={hover ? "btn btn-success buttonPosition":"btn btn-light buttonPosition"}>{hover ? "Yummy!":"Search"}</button>
+                <button onMouseEnter={handleHover} onMouseLeave={handleHover} className={hover ? "btn btn-dark buttonPosition":"btn btn-light buttonPosition"}>{hover ? "Let's eat!":"Search"}</button>
             </form>
             <br/>
             <span>*This search API can handle 10 search per minutes</span>
@@ -80,7 +77,6 @@ function RecipeSearch() {
             )}
             </div>
             </Suspense>
-
         </div>
     )
 }

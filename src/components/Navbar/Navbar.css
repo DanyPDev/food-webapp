@@ -7,7 +7,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   min-height: 7vh;
-  background: #a1753a;
+  background: #1e1d1d;
   color: #fff;
   z-index: 9999;
 }
@@ -21,7 +21,7 @@ a {
     text-decoration: none;
   }
   a:hover {
-     color: #e2b070;
+     color: #ffffff9f;
      text-decoration: none;
      transition: 0.4s;
      animation: ease-in;

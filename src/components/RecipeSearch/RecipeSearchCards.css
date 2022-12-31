@@ -2,7 +2,7 @@
     width: 300px; /* match image width fetched by api */
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
-    background-color: rgb(161, 117, 58);
+    background-color: #1e1d1d;
     transition: 0.3s;
     animation: ease-in;
     border-radius: 1%;

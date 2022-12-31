@@ -1,13 +1,10 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import RecipeSearch from '../components/RecipeSearch/RecipeSearch';
-// setup file
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import RecipeSearchCards from '../components/RecipeSearch/RecipeSearchCards';
+import sinon from 'sinon';
 
-configure({ adapter: new Adapter() });
-
-describe('RecipeSeach_Button', () => {
+describe('RecipeSearch_Button', () => {
   let wrapper;
 
   beforeEach(() => {
@@ -15,14 +12,38 @@ describe('RecipeSeach_Button', () => {
   })
 
   it('renders the expected text', () => {
-    const wrapper = shallow(<RecipeSearch />);
     expect(wrapper.find('button').text()).toEqual('Search');
   });
 
 
   it('renders the expected text when hover', () => {
-    const wrapper = shallow(<RecipeSearch />);
     wrapper.find('button').simulate('mouseEnter');
-    expect(wrapper.find('button').text()).toEqual('Yummy!');
+    expect(wrapper.find('button').text()).toEqual('Let\'s eat!');
   });
+});
+
+
+describe('RecipeSearch_Recipes', () => {
+  let wrapper;
+  const mockedRecipeObject = {
+    recipe: {label:1,image:1,label:1,ingredientLines: ["yo"], calories: 1, url:"yo"}
+  };
+  global.fetch = jest.fn(() =>
+    Promise.resolve({
+      json: () => Promise.resolve(mockedRecipeObject),
+    })
+  );
+
+  beforeEach(() => {
+    fetch.mockClear();
+    wrapper = mount(<RecipeSearch />)
+  })
+
+  it('calling api to load recipes', () => {
+    expect(fetch).toHaveBeenCalledTimes(1);
+    // eslint-disable-next-line testing-library/no-debugging-utils
+    console.log(wrapper.debug())
+  });
+
+
 });
