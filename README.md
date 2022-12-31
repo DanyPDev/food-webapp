@@ -26,18 +26,16 @@
   
 </ul>
 
- <strong><h2>Samples of the Recipe Website V2 (with added Easter Egg)<h2></strong>
+ <strong><h2>Samples of the Recipe Website V2<h2></strong>
   <strong>Welcome Page<strong>
-  ![Untitled](https://user-images.githubusercontent.com/96401568/153511926-a8f79922-170e-4753-98a8-b74a9cff5a39.png)
+  ![welcome](https://user-images.githubusercontent.com/96401568/210126787-4b2c4b7d-473e-4359-aad4-251d2a05e7b9.png)
+
 
  <strong>Search Page<strong>
-  ![Untitled](https://user-images.githubusercontent.com/96401568/153511710-9c39038c-7d34-428f-a2bb-1e7492bf2a20.png)
-  
-<strong><h2>Samples of the Recipe Website V1 (old version)<h2></strong>
-  
-<strong>Welcome Page<strong>
-  ![HomePage](https://user-images.githubusercontent.com/96401568/148296760-b1917be9-67c9-48da-b934-f2b4b512cc2c.png)
-  
-<strong>Search Page<strong>
-  ![RecipeSearchPage](https://user-images.githubusercontent.com/96401568/148296803-d6149b34-b878-4df3-88d9-a71ef3cedba7.png)
-  
+  ![p1](https://user-images.githubusercontent.com/96401568/210126791-5181a021-0429-4ad3-b803-78a30bbd3e7a.png)
+
+  ![p2](https://user-images.githubusercontent.com/96401568/210126794-2e6b3b45-ea38-4a02-b3ce-a31608c04d11.png)
+
+
+  ![p3](https://user-images.githubusercontent.com/96401568/210126797-f7592b50-8cf7-4106-84ac-82a7a34136a7.png)
+
