@@ -2,30 +2,6 @@
 
 <h1><strong>Website Link: https://food-app-v2-7a640.web.app/ </strong></h1>
 
-
-<strong>The purpose of this website was to familiarize myself with ReactJS and APIs</strong>
-
-
-
-<strong>What I have learned so far:</strong>
-
-<ul>
-<li>CI/CD pipelines</li>
-
-<li>ReactJS Hooks</li>
-
-<li>API fetching (sent GET request to API)</li>
-
-<li>Promises with JavaScript async/await</li>
-
-<li>Error handling with promises (resolve, .then/reject, .catch)</li>
-
-<li>Debugging JavaScript</li>
-
-<li>Learned how to use functional components instead of class components</li>
-  
-</ul>
-
  <strong><h2>Samples of the Recipe Website V2<h2></strong>
   <strong>Welcome Page<strong>
   ![welcome](https://user-images.githubusercontent.com/96401568/210126787-4b2c4b7d-473e-4359-aad4-251d2a05e7b9.png)
